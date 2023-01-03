@@ -5,7 +5,8 @@
 
 1.Kết nối đến Azure AD bằng câu lệnh ***Connect-msolservice***, sau đó nhập tài khoản
 
-2.Xuất tất cả các user hiện tại với ***Get-MsolUser | Select-Object UserPrincipalName | Export-Csv c:\Users.csv.***
+2.Xuất tất cả các user hiện tại với 
+> Get-MsolUser | Select-Object UserPrincipalName | Export-Csv c:\Users.csv.
 
 3.Một file ***.csv*** sẽ được tạo trong ổ đĩa C với cột ***UserPrincipalName***.
 
